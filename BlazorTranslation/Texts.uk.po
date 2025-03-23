@@ -4,32 +4,33 @@ msgstr "Project-Id-Version: BlazorTranslation v1.0.0\n"
 "POT-Creation-Date: Fri Mar 14 17:06:47 2025\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
-"Language: en\n"
+"Language: uk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
 
 msgid "Home"
-msgstr "Home"
+msgstr "Головна"
 
-#: Pages.Home
 msgid "HelloWorld"
-msgstr "Hello, world!"
+msgstr "Привіт світ!"
 
 msgid "WelcomeText"
 msgstr "Hello, world!"
 
 msgid "CounterTitle"
-msgstr "Counter"
+msgstr "Лічільнік"
 
 msgid "ClickMe"
-msgstr "Click me"
+msgstr "Натисни на мене"
 
 #, csharp-format, fuzzy
 msgid "CurrentCount"
 msgid_plural "CurrentCount"
-msgstr[0] "Current count: {0} item."
-msgstr[1] "Current count: {0} items."
+msgstr[0] "Поточна кількість: {0} штука."
+msgstr[1] "Поточна кількість: {0} штуки."
+msgstr[2] "Поточна кількість: {0} штук."
 
 msgid "WeatherTitle"
-msgstr "Weather"
+msgstr "Погода"
+

@@ -8,13 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Texts.po">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Texts.uk.po" />
+    <EmbeddedResource Include="Texts.po" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Karambolo.PO.Minimal" Version="1.12.0" />
+    <PackageReference Include="Karambolo.PO.Compact" Version="1.12.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.3" PrivateAssets="all" />
   </ItemGroup>
