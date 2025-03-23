@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: BlazorTranslation v1.0.0\n"
+"Report-Msgid-Bugs-To: kant2002@gmail.com\n"
+"POT-Creation-Date: Fri Mar 14 17:06:47 2025\n"
+"Last-Translator: \n"
+"Language-Team: none\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: Pages.Home
+msgid "Home"
+msgstr "Home"
+
+#: Pages.Home
+msgid "HelloWorld"
+msgstr "Hello, world!"
+
+#: Pages.Home
+msgid "WelcomeText"
+msgstr "Hello, world!"
